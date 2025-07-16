@@ -11,7 +11,7 @@ void naive_gemm(const float* A, const float* B, float* C, int N) {
 }
 
 int main() {
-    int N = 512;
+    int N = 4096;
     std::vector<float> A(N*N, 1.0f);
     std::vector<float> B(N*N, 1.0f);
     std::vector<float> C(N*N, 0.0f);
